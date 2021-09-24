@@ -1,0 +1,114 @@
+{
+  "project_info": {
+    "project_number": "357625952955",
+    "firebase_url": "https://fanda-taxi.firebaseio.com",
+    "project_id": "fanda-taxi",
+    "storage_bucket": "fanda-taxi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:357625952955:android:61251ba8f5b72fec",
+        "android_client_info": {
+          "package_name": "com.fanda.user"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "357625952955-ko7rd73thcuvmbrli2vtaq43dn8n4tuf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNFS-ZC7jIhQMl8jeHqMmrw4XxUOdZG1w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "357625952955-ko7rd73thcuvmbrli2vtaq43dn8n4tuf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:357625952955:android:269f916e5bc87096efc79e",
+        "android_client_info": {
+          "package_name": "com.fandataxidriver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "357625952955-8ug77hugv4ke0ur4pbb0e9jqa8cghk2g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.fandataxidriver",
+            "certificate_hash": "7641aab45d3a9ffa9121b2255b19c46ee832cbea"
+          }
+        },
+        {
+          "client_id": "357625952955-ko7rd73thcuvmbrli2vtaq43dn8n4tuf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNFS-ZC7jIhQMl8jeHqMmrw4XxUOdZG1w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "357625952955-ko7rd73thcuvmbrli2vtaq43dn8n4tuf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:357625952955:android:35715d2811909512efc79e",
+        "android_client_info": {
+          "package_name": "com.fandausertaxi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "357625952955-kjlq419a4mlh6f41r25eu4b6q7tjt38p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.fandausertaxi",
+            "certificate_hash": "7641aab45d3a9ffa9121b2255b19c46ee832cbea"
+          }
+        },
+        {
+          "client_id": "357625952955-ko7rd73thcuvmbrli2vtaq43dn8n4tuf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNFS-ZC7jIhQMl8jeHqMmrw4XxUOdZG1w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "357625952955-ko7rd73thcuvmbrli2vtaq43dn8n4tuf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

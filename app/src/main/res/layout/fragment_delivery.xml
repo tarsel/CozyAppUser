@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:focusable="true"
+    android:background="@color/white"
+    android:orientation="vertical">
+<ImageView
+    android:layout_alignParentRight="true"
+    android:src="@drawable/ic_add"
+    android:padding="@dimen/_5sdp"
+    android:id="@+id/iv_add"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"></ImageView>
+
+    <TextView
+        android:layout_marginTop="@dimen/_10sdp"
+        android:padding="@dimen/_3sdp"
+        android:gravity="center"
+        android:paddingTop="@dimen/_10sdp"
+        android:fontFamily="@font/clanpro_narrnews"
+        android:layout_alignParentTop="true"
+        android:textColor="@android:color/black"
+        android:layout_width="match_parent"
+        android:textSize="@dimen/_14sdp"
+        android:id="@+id/tv_heading"
+        android:text="Delivery Items"
+        android:layout_height="wrap_content"></TextView>
+
+
+    <TextView
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:text="No Item found"
+        android:gravity="center"
+        android:id="@+id/tv_no_item"
+        android:layout_height="@dimen/_70sdp"></TextView>
+
+<androidx.recyclerview.widget.RecyclerView
+    android:layout_width="match_parent"
+    android:layout_below="@id/tv_heading"
+    android:id="@+id/rv_delivery"
+    android:layout_height="@dimen/_200sdp"></androidx.recyclerview.widget.RecyclerView>
+
+    <LinearLayout
+        android:layout_below="@id/rv_delivery"
+        android:layout_width="match_parent"
+        android:id="@+id/btn_layout"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+
+
+        <Button
+            android:id="@+id/btn_reset"
+            style="@style/MyButton.Accent"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="Reset" />
+        <Button
+            android:id="@+id/btn_next"
+            style="@style/MyButton.Primary"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="Next" />
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

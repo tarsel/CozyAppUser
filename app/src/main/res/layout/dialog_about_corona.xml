@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_margin="20dp"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="@dimen/_16sdp">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/_10sdp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/clanpro_medium"
+            android:gravity="center"
+            android:padding="@dimen/_5sdp"
+            android:text="@string/corona_note"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/text_18" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:gravity="center"
+            android:weightSum="2"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:src="@drawable/covid_one" />
+
+
+            <ImageView
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:src="@drawable/covid_two" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:text="@string/corona_detail_txt"
+                android:fontFamily="@font/clanpro_narrnews"
+                android:textSize="@dimen/_11sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:text="@string/corona_points"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/_11sdp"
+                android:fontFamily="@font/clanpro_medium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <CheckBox
+                android:id="@+id/cofirm_checkbox"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:text="@string/corona_checkbox_txt"
+                android:fontFamily="@font/clanpro_book"
+                android:textSize="@dimen/_11sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+            <TextView
+                android:text="@string/corona_required_txt"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/_11sdp"
+                android:fontFamily="@font/clanpro_medium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+            <Button
+                android:id="@+id/btnRideConfirm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:textAllCaps="false"
+                android:text="Request Now"
+                android:textColor="@color/white"
+                android:padding="@dimen/_5sdp"
+                app:cornerRadius="@dimen/_15sdp"
+                android:backgroundTint="@color/colorPrimary"
+           />
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
